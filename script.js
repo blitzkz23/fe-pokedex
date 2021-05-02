@@ -1,5 +1,5 @@
 const poke_container = document.getElementById('poke-container');
-const pokemon_count = 1000;
+const pokemon_count = 250;
 const colors = {
     fire: '#FDDFDF',
     grass: '#DEFDE0',
@@ -54,7 +54,6 @@ const createPokemonCard = (pokemon) => {
         <small class="type">Type: <span>${type}</span></small>
     </div>
     `
-
     pokemonEl.innerHTML = pokemonInnerHTML;
 
     poke_container.appendChild(pokemonEl);
